@@ -10,7 +10,7 @@ Add a new section every week, before you tag. Did not use AI? Write "None" under
 - One thing the AI got wrong and how I fixed it: N/A
 
 ## Week 2
-- Tool(s):
-- What I asked for:
-- What I kept, changed or rejected, and why:
-- One thing the AI got wrong and how I fixed it:
+- Tool(s): Gemini
+- What I asked for: Ask why the vendor card not highlight
+- What I kept, changed or rejected, and why: AI cannot find the solution because the problem is name of the component.
+- One thing the AI got wrong and how I fixed it: The highlight problem is not code problem, AI insists its code problem, its actually the name, accidently put name Index.css istead of index.css.
