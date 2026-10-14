@@ -1,8 +1,8 @@
 function MenuItemCard() {
  const item = {
- name: 'Nasi Lemak Ayam',
- description: 'Coconut rice, fried chicken, sambal, egg and peanuts',
- price: 7.5,
+ name: 'Grilled Meat Taco',
+ description: 'Grilled meat, potato, wrapping, mayonese and cheese',
+ price: 8.50,
  available: true,
  }
  return (
