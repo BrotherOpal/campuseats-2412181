@@ -42,6 +42,10 @@ body { margin: 0; }
   border-radius: var(--radius);
   padding: 1rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  border: 2px solid #e2e8f0; /* Added a default light border to every card */
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
 }
 .card h2, .card h3 { margin: 0 0 0.25rem; }
 .vendor-card { display: flex; gap: 1rem; align-items: center; }
@@ -64,3 +68,8 @@ body { margin: 0; }
 .btn:disabled { background: #c5cbd3; cursor: not-allowed; }
 
 .footer { text-align: center; color: var(--muted); padding: 2rem 1rem; font-size: 0.85rem; }
+
+.card.selected {
+  border: 2px solid var(--green) !important;
+  background-color: var(--green-light) !important;
+}
