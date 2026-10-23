@@ -1,0 +1,118 @@
+[
+ {
+ "id": "2412181-Stall-1",
+ "name": "Chef Haddif Expert",
+ "location": "Mahallah Faruq, Block A",
+ "openHours": "6:00 am - 10:00 pm",
+ "isOpen": true,
+ "menu": [
+ { "id": "2412181-menu-1", "name": "Spaghetti Carbonara", "description": "Noodle with white creamy sauce", "price": 3.0, "category": "Noodle",
+"available": true },
+ { "id": "2412181-menu-2", "name": "Meatball", "description": "Meatball with sauce", "price": 2, "category":
+"Side Dish", "available": false },
+ { "id": "2412181-menu-3", "name": "Mango Yogurt", "description": "Water that contains mango and yogurt, ice too", "price": 2.5, "category":
+"Drinks", "available": true },
+{ "id": "2412181-menu-4", "name": "Strawberry Yogurt", "description": "Drink with strawberry taste and yogurt combined", "price": 3.0, "category":
+"Drinks", "available": true },
+{ "id": "2412181-menu-5", "name": "Potato Bowl", "description": "Potatoes with delicious sauce", "price": 6, "category":
+"Side Dish", "available": false },
+{ "id": "2412181-menu-6", "name": "Spaghetti Bolognese", "description": "Noodle with red spicy sauce", "price": 3.0, "category": "Noodle",
+"available": true },
+{ "id": "2412181-menu-7", "name": "Watermelon Juice", "description": "Blended watermelon with ice", "price": 3.0, "category":
+"Drinks", "available": true },
+{ "id": "2412181-menu-8", "name": "Mee Sup", "description": "Noodle with clear soup", "price": 3.0, "category": "Noodle",
+"available": true }
+ ]
+ },
+ {
+    "id": "2415143-republic-ayam-gepuk",
+    "name": "Republic of Ayam Gepuk",
+    "location": "Mahallah Salahuddin, Ground Floor",
+    "openHours": "10:30 am - 10:00 pm",
+    "isOpen": true,
+    "menu": [
+        {"id": "2415143-m1", "name": "Set A - Ayam Gepuk", "description": "White rice with fried chicken serve with sambal gepuk, cashew sambal and raw cabbage", "price": 8, "category": "Food", "available": true},
+        {"id": "2415143-m2", "name": "Set B - Ayam Gepuk", "description": "White rice with fried chicken serve with sambal gepuk, cashew sambal, fried cabbage and tempe", "price": 12, "category": "Food", "available": true},
+        {"id": "2415143-m3", "name": "Teh O ais", "description": "Tea with ice", "price": 1.50, "category": "Drinks", "available": true},
+        {"id": "2415143-m4", "name": "Teh O Ais Limau", "description": "Tea with ice and lime", "price": 2, "category": "Drinks", "available": true},
+        {"id": "2415143-m5", "name": "Sirap ais", "description": "Rose-flavored water and ice", "price": 1.50, "category": "Drinks", "available": true},
+        {"id": "2415143-m6", "name": "Bayam goreng", "description": "Fried spinach", "price": 3, "category": "Add On", "available": true},
+        {"id": "2415143-m7", "name": "Kobis goreng", "description": "A crispy, sweet and savory stir fried cabbage", "price": 3, "category": "Add On", "available": true},
+        {"id": "2415143-m8", "name": "Ayam", "description": "A crispy, freshly fried chicken", "price": 6, "category": "Add On", "available": true}
+    ]
+  },
+  {
+    "id": "2415493-my-cafe",
+    "name": "Ian Cafe",
+    "location": "Mahallah Salahuddin, Block F",
+    "openHours": "7:00 am - 10:00 pm",
+    "isOpen": true,
+    "menu": [
+      {
+        "id": "2415493-ian-1",
+        "name": "Nasi Tomato",
+        "description": "Nasi tomato with Ayam Masak Merah",
+        "price": 7.5,
+        "category": "Rice",
+        "available": true
+      },
+      {
+        "id": "2415493-ian-2",
+        "name": "Mee Goreng",
+        "description": "Fried noodles with vegetables",
+        "price": 6,
+        "category": "Noodles",
+        "available": true
+      },
+      {
+        "id": "2415493-ian-3",
+        "name": "Iced Milo",
+        "description": "Cold chocolate malt drink",
+        "price": 2.5,
+        "category": "Drinks",
+        "available": false
+      },
+      {
+        "id": "2415493-ian-4",
+        "name": "Nasi Lemak Ayam Goreng",
+        "description": "Fragrant coconut rice with crispy fried chicken",
+        "price": 8.0,
+        "category": "Rice",
+        "available": true
+      },
+      {
+        "id": "2415493-ian-5",
+        "name": "Kuey Teow Goreng",
+        "description": "Stir-fried flat rice noodles with egg",
+        "price": 6.5,
+        "category": "Noodles",
+        "available": true
+      },
+      {
+        "id": "2415493-ian-6",
+        "name": "Teh O Ais",
+        "description": "Iced sweet black tea",
+        "price": 1.5,
+        "category": "Drinks",
+        "available": true
+      },
+      {
+        "id": "2415493-ian-7",
+        "name": "Sirap Bandung",
+        "description": "Rose syrup drink with milk",
+        "price": 2.5,
+        "category": "Drinks",
+        "available": true
+      },
+      {
+        "id": "2415493-ian-8",
+        "name": "Maggi Goreng Mamak",
+        "description": "Spicy stir-fried instant noodles",
+        "price": 5.5,
+        "category": "Noodles",
+        "available": true
+      }
+    ]
+  }
+]
+
