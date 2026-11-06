@@ -1,7 +1,7 @@
 import { useState } from 'react'
 const MAHALLAHS = ['Ali', 'Aminah', 'Faruq', 'Asiah', 'Bilal', 'Hafsa', 'Uthman', 'Zubair']
 
-// A plain function: values in, errors object out. Empty object = valid.
+
 function validate(values) {
   const errors = {}
   
@@ -9,12 +9,12 @@ function validate(values) {
     errors.name = 'Enter your name (at least 3 characters).'
   }
   
-  // Mahallah must be chosen
+  
   if (!values.mahallah) {
     errors.mahallah = 'Choose your mahallah.'
   }
   
-  // Pickup time must be between '07:00' and '22:00'
+
   if (!values.pickupTime) {
     errors.pickupTime = 'Choose a pickup time.'
   } else if (values.pickupTime < '07:00' || values.pickupTime > '22:00') {
@@ -28,18 +28,17 @@ function CheckoutForm({ onPlaceOrder }) {
   const [values, setValues] = useState({ name: '', mahallah: '', pickupTime: '' })
   const [errors, setErrors] = useState({})
 
-  // One handler for every input: the input's name matches a key in values.
+
   function handleChange(event) {
     const { name, value } = event.target
     setValues((prev) => ({ ...prev, [name]: value }))
   }
 
   function handleSubmit(event) {
-    event.preventDefault() // stop the page reloading
+    event.preventDefault()
     const found = validate(values)
     setErrors(found)
 
-    // If found has no keys (no errors), call onPlaceOrder(values)
     if (Object.keys(found).length === 0) {
       onPlaceOrder(values)
     }

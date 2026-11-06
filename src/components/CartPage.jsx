@@ -5,7 +5,7 @@ function CartPage({ cart, onChangeQty, onRemove, onPlaceOrder }) {
  return <p className="muted">Your cart is empty. Pick something from a menu first.</p>
  }
  
- // Derive total with cart.reduce(...)
+
  const total = cart.reduce((sum, line) => sum + line.item.price * line.qty, 0)
 
  return (

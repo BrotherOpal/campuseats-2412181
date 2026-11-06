@@ -1,4 +1,28 @@
-import { useState, useEffect } from 'react'
+import { Routes, Route } from 'react-router'
+import { Layout } from './components/Layout.jsx'
+import { HomePage } from './pages/HomePage.jsx'
+import { VendorPage } from './pages/VendorPage.jsx'
+import { CartPage } from './pages/CartPage.jsx'
+import { OrdersPage } from './pages/OrdersPage.jsx'
+import { NotFoundPage } from './pages/NotFoundPage.jsx'
+
+function App() {
+  return (
+    <Routes>
+      <Route element={<Layout />}>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/vendor/:id" element={<VendorPage />} />
+        <Route path="/cart" element={<CartPage />} />
+        <Route path="/orders" element={<OrdersPage />} />
+        <Route path="*" element={<NotFoundPage />} />
+      </Route>
+    </Routes>
+  )
+}
+
+export default App
+
+/*import { useState, useEffect } from 'react'
 import Header from './components/Header.jsx'
 import { Loading, ErrorMessage } from './components/Status.jsx'
 import VendorCard from './components/VendorCard.jsx'
@@ -161,4 +185,4 @@ function App() {
   )
 }
 
-export default App
+export default App*/

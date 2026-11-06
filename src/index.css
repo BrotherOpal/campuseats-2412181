@@ -1,5 +1,5 @@
 :root {
-  --green: #00685e;
+  --green: #0f6998;
   --green-light: #e6f2f0;
   --text: #1f2933;
   --muted: #616e7c;
@@ -59,7 +59,7 @@ body { margin: 0; }
 .muted { color: var(--muted); margin: 0.2rem 0; font-size: 0.9rem; }
 .price { font-weight: 700; margin: 0.5rem 0; }
 .status { display: inline-block; margin-top: 0.4rem; padding: 0.1rem 0.6rem; border-radius: 999px; font-size: 0.8rem; font-weight: 600; }
-.status.open { background: #e3f7e8; color: #1b7a3a; }
+.status.open { background: #e3f7e8; color: #085774; }
 .status.closed { background: #fdecea; color: #b3261e; }
 .btn {
   width: 100%; padding: 0.55rem; border: 0; border-radius: 8px;

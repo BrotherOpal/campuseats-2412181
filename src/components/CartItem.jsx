@@ -1,4 +1,3 @@
-// One row in the cart. It shows data and reports clicks upward; it owns no state.
 function CartItem({ line, onChangeQty, onRemove }) {
  const { item, qty } = line
  return (

@@ -20,3 +20,9 @@ Add a new section every week, before you tag. Did not use AI? Write "None" under
 - What I asked for: Step by step how to do lab 3, how to change App.jsx, how to input plenty of stores in vendors.jsx, how to solve interface error, how to add filter by category (2412181), how to solve total price ammount in the cart.
 - What I kept, changed or rejected, and why: I kept the category code solution, i kept solution code of total price ammount problem, Gemini try to change the code entirely, I take extra code Gemini make and integrate it with current code without deleting current code entirely.
 - One thing the AI got wrong and how I fixed it: Gemini try to make the category filter very long button and in rows, which eat too many space, i change it so it become smaller button and put them beside each other. Gemini say B6 is optional and when i check it back, its required based on last number in out matric number.
+
+## Week 4
+- Tool(s): ChatGPT
+- What I asked for: Help me create the necessary codes for custom hooks (useLocalStorage, useVendors, useCart), how to use React Router across the pages, and how to use category filtering because my matric number end with number 1.
+- What I kept, changed or rejected, and why: I learn the code AI give me and implement them. There is a code AI tell me how me to delete because its wrong, but i maintain that specific code because the website is broken without it.
+- One thing the AI got wrong and how I fixed it: Ai try to help me with the code without seeing other pages, which is problematic and i change the code to match it with other pages.
